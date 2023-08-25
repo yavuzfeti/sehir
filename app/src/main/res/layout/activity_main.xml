@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bir_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="_"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/bir_txt_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="_"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/bir_txt_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="_"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/bir_txt_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="_"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/bir_txt_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="_"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edittxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLength="1"
+        android:textAllCaps="true"
+        android:inputType="textCapCharacters"/>
+
+    <Button
+        android:id="@+id/oyna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="oyna"
+        android:text="Tahmin Et" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Yanlış Harfler"
+        android:textSize="25sp" />
+
+    <ListView
+        android:id="@+id/liste"
+        android:layout_width="match_parent"
+        android:layout_height="350dp" />
+
+    <TextView
+        android:id="@+id/puan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Puan:  0"
+        android:gravity="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/sure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Süre: 60"
+        android:gravity="center"
+        android:textSize="25sp" />
+</LinearLayout>
